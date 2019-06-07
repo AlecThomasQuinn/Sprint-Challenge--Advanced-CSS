@@ -91,9 +91,12 @@
         width: 100%;
       }
 
-      .btn {
+      .btn {  // .btn class in global.less
         .btn-box(33%, 5px, @btn-bg-color, @porcelain);
-        // .btn class in global.less
+
+        &:hover {
+          background-color: lighten(@btn-bg-color, 15%);
+        }
 
         @media @mobile{
           width: 100%;
@@ -108,7 +111,6 @@
       @media @mobile{
         order: 1;
         width: 100%;
-        margin: 20px 2.5%;
       }
       
       img {

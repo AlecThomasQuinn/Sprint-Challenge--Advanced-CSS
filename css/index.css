@@ -281,6 +281,9 @@ footer {
   background: #22283A;
   color: #F6F7F8;
 }
+.home .walk .walk-text .btn:hover {
+  background-color: #3e496a;
+}
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 100%;
@@ -294,7 +297,6 @@ footer {
   .home .walk .walk-img {
     order: 1;
     width: 100%;
-    margin: 20px 2.5%;
   }
 }
 .home .walk .walk-img img {
